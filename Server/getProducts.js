@@ -18,7 +18,6 @@ module.exports = {
         }
         else {
             res.status(200).send(products);
-            console.log("No Match, Making it rain Products")
         }
         
 
